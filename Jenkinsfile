@@ -14,7 +14,7 @@ pipeline {
 		}
 		stage('Deployment') {
 			steps {
-				sh 'cp target/Project1.war /home/purushottam/Documents/DevOps/apache-tomcat-9.0.93/webapps'
+				sh 'cp target/Project3.war /home/purushottam/Documents/DevOps/apache-tomcat-9.0.93/webapps'
 			}
 		}
 	}
